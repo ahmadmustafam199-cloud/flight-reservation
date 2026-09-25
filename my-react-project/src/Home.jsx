@@ -185,10 +185,10 @@ export default function Home() {
             </a>
 
             {[
-              ["About Us", "#about"],
-              ["Services", "#services"],
-              ["International Flights", "#destinations"],
-              ["Contact Us", "#contact"],
+              ["About Us", "https://avionflightreservation.com/about.html"],
+              ["Services", "https://avionflightreservation.com/services.html"],
+              ["International Flights", "https://avionflightreservation.com/destinations.html"],
+              ["Contact Us", "https://avionflightreservation.com/contact.html"],
             ].map(([label, href]) => (
               <a
                 key={label}
@@ -214,10 +214,10 @@ export default function Home() {
               <div className="invisible absolute left-0 top-full z-50 translate-y-2 pt-2 opacity-0 transition-all duration-200 group-hover:visible group-hover:translate-y-0 group-hover:opacity-100">
                 <div className="w-52 overflow-hidden rounded-xl border border-gray-100 bg-white py-2 shadow-xl">
                   {[
-                    ["Terms & Conditions", "/terms"],
-                    ["Refund Policy", "/refund-policy"],
-                    ["Cancellation Policy", "/cancellation-policy"],
-                    ["Privacy Policy", "/privacy-policy"],
+                    ["Terms & Conditions", "https://avionflightreservation.com/terms.html"],
+                    ["Refund Policy", "https://avionflightreservation.com/refund-policy.html"],
+                    ["Cancellation Policy", "https://avionflightreservation.com/cancellation-policy.html"],
+                    ["Privacy Policy", "https://avionflightreservation.com/privacy-policy.html"],
                   ].map(([label, href]) => (
                     <a
                       key={label}
@@ -261,11 +261,11 @@ export default function Home() {
           <div className="border-t border-slate-100 bg-white px-4 py-3 shadow-lg lg:hidden">
             <nav className="flex flex-col gap-0.5">
               {[
-                ["Home", "#home"],
-                ["About Us", "#about"],
-                ["Services", "#services"],
-                ["International Flights", "#destinations"],
-                ["Contact Us", "#contact"],
+                ["Home", "https://avionflightreservation.com/index.html"],
+                ["About Us", "https://avionflightreservation.com/about.html"],
+                ["Services", "https://avionflightreservation.com/services.html"],
+                ["International Flights", "https://avionflightreservation.com/destinations.html"],
+                ["Contact Us", "https://avionflightreservation.com/contact.html"],
               ].map(([label, href]) => (
                 <a
                   key={label}
@@ -283,10 +283,10 @@ export default function Home() {
                 </p>
 
                 {[
-                  ["Terms & Conditions", "/terms"],
-                  ["Refund Policy", "/refund-policy"],
-                  ["Cancellation Policy", "/cancellation-policy"],
-                  ["Privacy Policy", "/privacy-policy"],
+                  ["Terms & Conditions", "https://avionflightreservation.com/terms.html"],
+                  ["Refund Policy", "https://avionflightreservation.com/refund-policy.html"],
+                  ["Cancellation Policy", "https://avionflightreservation.com/cancellation-policy.html"],
+                  ["Privacy Policy", "https://avionflightreservation.com/privacy-policy.html"],
                 ].map(([label, href]) => (
                   <a
                     key={label}
